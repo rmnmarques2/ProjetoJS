@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="lightblue">
+    <h1 align = center>Sistema Nota Alunos</h1>
+
+    
+    <center>
+    <table border="1" cellspacing="5">
+        <caption><b>Lançamento de Notas</b></caption>
+        <tr>
+            <th rowspan="2">Nome do Aluno</th>
+            <th rowspan="2">Matricula do Aluno</th>
+            <th colspan="4">Notas do Aluno</th>
+  
+        </tr>
+        <tr>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Nota 3</th>
+            
+        </tr>
+        <tr>
+            <td><input type="text" id="nome"></td>
+            <td><input type="text" id="matricula"></td>
+            <td><input type="text" id="nota1"></td>
+            <td><input type="text" id="nota2"></td>
+            <td><input type="text" id="nota3"></td>
+        </tr>
+        <tr>
+            <th colspan="5" height="30">
+            <input type="submit" value="Adicionar Notas" onclick="media()"></th>
+        </tr>    
+    </table>
+    <br>
+    <table border="1" cellspacing="5" id="tbBoletim">
+        <caption><b>Boletim do Aluno</b></caption>
+        <tr>
+            <th width="180">Nome do Aluno</th>
+            <th width="180">Matrícula do Aluno</th>
+            <th >Nota 1</th>
+            <th >Nota 2</th>
+            <th>Nota 3</th>
+            <th>Média</th>
+            <th>Excluir Aluno</th>
+            
+            
+                
+        </tr>
+          
+    </table>
+    </center>    
+    
+</body>
+<script src="./main.js"></script>
+</html>

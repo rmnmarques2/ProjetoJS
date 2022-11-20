@@ -1,0 +1,58 @@
+*{
+    background-color: white;
+    box-sizing: border-box;
+}
+
+
+#lanca-notas, #boletim{
+    margin: 2%;
+    font-size: 16pt;
+    background-color: white;
+}
+
+
+#botao-add{
+    border-radius: pt;
+    background-color: darkgray;
+    height: 20pt;
+    
+
+
+}
+
+
+#lancamento, #situacao-aluno{
+    height: 50%;
+    width: 80%;
+    border-radius: 5pt;
+    border-style: double;
+    
+}
+
+table{
+    background-color: lightgray;
+    padding: 10px;
+    border: 2pt;
+    border-radius: 5pt;
+}
+
+td, th{
+    border-radius: 5pt;
+    border: 5pt;
+    padding: 10pt;
+    background-color: white;
+    
+}
+
+#tbBoletim{
+    border-radius: 5pt;
+
+}
+
+input{
+    border-radius: 5pt;
+}
+
+
+
+
